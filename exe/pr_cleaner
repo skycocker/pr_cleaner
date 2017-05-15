@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'pr_cleaner'
+PrCleaner.clear(repo: ARGV[0], pr_number: ARGV[1], username: ARGV[2])
